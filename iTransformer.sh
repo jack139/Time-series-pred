@@ -3,7 +3,7 @@ export CUDA_VISIBLE_DEVICES=0
 
 python3.9 -u iTransformer/run.py \
   --task_name long_term_forecast \
-  --is_training 0 \
+  --is_training 1 \
   --root_path data/iTransformer/ \
   --data_path vix_5m_600000.SH.csv \
   --checkpoints ckpt/ \
